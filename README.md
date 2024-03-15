@@ -40,17 +40,17 @@ combinations of what each first,middle,and last element chosen can be: (LLL) (LL
 computation: 1(LLL) 1(PPP) 1(GGG) 3(LLP) 6(LPG) 3(PPL) 3(PPG) 3(LLG) 3(GGP) 3(GGL).
 
 Now we can calculate the probability of each of the combinations based on their probability
-from the pivot spectrum from slide 34 and in the quantity that they occur:
-LLL = $(1/4)^3 * 1 = 1/64$
-PPP = $(1/2)^3 * 1 = 8/64$ or 1/8
-GGG = $(1/4)^3 * 1 = 1/64$
-LLP = $(1/4)^2 * 1/2 * 3 = 6/64$ or 3/32
-LPG = $(1/4)^2 * 1/2 * 6 = 12/64$ or 6/32
-PPL = $(1/2)^2 * 1/4 * 3 = 12/64$ or 3/16
-PPG = $(1/2)^2 * 1/4 * 3 = 12/64$ or 3/16
-LLG = $(1/4)^3 * 3 = 3/64$
-GGP = $(1/4)^2 * 1/2 * 3 = 6/64$ or 3/32
-GGL = $(1/4)^3 * 3 = 3/64$
+from the pivot spectrum from slide 34 and in the quantity that they occur: <br>
+LLL = $(1/4)^3 * 1 = 1/64$ <br>
+PPP = $(1/2)^3 * 1 = 8/64$ or 1/8 <br>
+GGG = $(1/4)^3 * 1 = 1/64$ <br>
+LLP = $(1/4)^2 * 1/2 * 3 = 6/64$ or 3/32 <br>
+LPG = $(1/4)^2 * 1/2 * 6 = 12/64$ or 6/32 <br>
+PPL = $(1/2)^2 * 1/4 * 3 = 12/64$ or 3/16 <br>
+PPG = $(1/2)^2 * 1/4 * 3 = 12/64$ or 3/16 <br>
+LLG = $(1/4)^3 * 3 = 3/64$ <br>
+GGP = $(1/4)^2 * 1/2 * 3 = 6/64$ or 3/32 <br>
+GGL = $(1/4)^3 * 3 = 3/64$ <br>
 
 Now, we know that the median strategy is going to choose the middle element, because 
 the median is found by removing one element from the low end and one element from the 
